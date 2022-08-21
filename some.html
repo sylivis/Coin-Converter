@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Converter</title>
+    <script src="whatis.js"></script>
+</head>
+<body>
+
+    <div>
+        <h1>select one of the following to see its price in USDA:</h1>
+
+    <div class="buttonsDiv">
+        <div>
+            <button class="" id="b1" onclick="event.stopPropagation(); changeCrypto(this.id, event)">        
+                BitCoin
+            </button>
+        </div>
+        <div>
+            <button class="" id="b2" onclick="event.stopPropagation(); changeCrypto(this.id, event)">        
+                Ethereum
+            </button>
+        </div>
+        <div>
+            <button class="" id="b3" onclick="event.stopPropagation(); changeCrypto(this.id, event)">   
+                Doge Coin      
+            </button>
+        </div>
+        <div>
+            <button class="" id="b4" onclick="event.stopPropagation(); changeCrypto(this.id, event)">    
+                Binance Coin        
+            </button>
+        </div>
+    </div>
+    <div>
+        <h2>rate in USDA:</h2>
+        <h1 id="changeMe"> None Selceted</h1>
+    </div>
+</body>
+</html>
